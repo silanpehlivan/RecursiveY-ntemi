@@ -2,17 +2,32 @@
 
 # Standart Sapma Hesaplama
 
-**İteratif istatistiksel hesaplama**
+### Sayıların dağılımını birkaç adımda keşfet.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Bir sayı dizisinin standart sapmasını döngülerle hesaplayan konsol uygulaması. Depo adına rağmen hesaplama iteratif yöntem kullanır.
+
+**İteratif istatistiksel hesaplama**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/RecursiveY-ntemi/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Ortalama, varyans ve standart sapma hesabı
+- **02** · Konsol üzerinden veri girişi
+- **03** · Döngü tabanlı matematiksel işlemler
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,20 +39,19 @@ Bir sayı dizisinin standart sapmasını döngülerle hesaplayan konsol uygulama
 
 C# · .NET Framework
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Ortalama hesaplandıktan sonra değerlerin ortalamadan farklarının kareleri biriktirilir; varyans üzerinden standart sapma elde edilir.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [Program.cs](Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Depo adındaki recursive ifadesine rağmen mevcut örnek döngü tabanlıdır; özyineleme uygulaması olarak sunulmaz.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, bir sayı dizisinin standart sapmasını iteratif (döngüsel) yöntemle hesaplayan bir C# konsol uygulamasıdır. Proje adı “Recursive Yöntemi” olsa da, uygulama özyineleme yerine döngüler kullanılarak geliştirilmiştir. Bu yaklaşım, istatistiksel hesaplamaların temel mantığını programlama ile göstermeyi amaçlamaktadır.
 
@@ -146,6 +160,8 @@ RecursiveYontemi-master/
 ```
 
 ---
+
+
 
 
 </details>
