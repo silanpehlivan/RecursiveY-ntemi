@@ -1,11 +1,37 @@
-📈 Standart Sapma Hesaplaması (İteratif Yöntem)
+<div align="center">
+
+# Standart Sapma Hesaplama
+
+**İteratif istatistiksel hesaplama**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-0891b2?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Bir sayı dizisinin standart sapmasını döngülerle hesaplayan konsol uygulaması. Depo adına rağmen hesaplama iteratif yöntem kullanır.
+
+</div>
+
 ---
+
+## Öne Çıkanlar
+
+- Ortalama, varyans ve standart sapma hesabı
+- Konsol üzerinden veri girişi
+- Döngü tabanlı matematiksel işlemler
+
+## Teknolojiler
+
+C# · .NET Framework
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, bir sayı dizisinin standart sapmasını iteratif (döngüsel) yöntemle hesaplayan bir C# konsol uygulamasıdır. Proje adı “Recursive Yöntemi” olsa da, uygulama özyineleme yerine döngüler kullanılarak geliştirilmiştir. Bu yaklaşım, istatistiksel hesaplamaların temel mantığını programlama ile göstermeyi amaçlamaktadır.
 
 ---
 
-🎯 Projenin Amacı
+ Projenin Amacı
 ---
 
 Bu projenin temel amacı, verilen bir sayı dizisi için standart sapma değerini adım adım iteratif bir yöntemle hesaplamaktır. Bu kapsamda:
@@ -17,7 +43,7 @@ Bu projenin temel amacı, verilen bir sayı dizisi için standart sapma değerin
 
 ---
 
-📚 Standart Sapma Nedir?
+ Standart Sapma Nedir?
 ---
 
 Standart sapma, bir veri setindeki değerlerin ortalamadan ne kadar uzaklaştığını ölçen istatistiksel bir ölçüdür.
@@ -35,7 +61,7 @@ Standart sapma, bir veri setindeki değerlerin ortalamadan ne kadar uzaklaştı�
 
 ---
 
-⚙️ Teknik Detaylar
+ Teknik Detaylar
 ---
 
 | Özellik | Açıklama |
@@ -48,7 +74,7 @@ Standart sapma, bir veri setindeki değerlerin ortalamadan ne kadar uzaklaştı�
 
 ---
 
-💻 Implementasyon Detayları
+ Implementasyon Detayları
 ---
 
 Projenin ana mantığı `Program.cs` dosyasında bulunan `iterasyonlaStandartSapma(double[] x, int n)` metodunda yer almaktadır. Hesaplamalar döngüler kullanılarak gerçekleştirilmiştir.
@@ -84,7 +110,7 @@ Main metodu içerisinde kullanıcıdan veri alınır ve fonksiyon çağrılarak 
 
 ---
 
-🚀 Kurulum ve Çalıştırma
+ Kurulum ve Çalıştırma
 ---
 
 1. Projeyi indirip klasöre çıkarın  
@@ -94,7 +120,7 @@ Main metodu içerisinde kullanıcıdan veri alınır ve fonksiyon çağrılarak 
 
 ---
 
-📂 Proje Yapısı
+ Proje Yapısı
 ---
 
 ```
@@ -109,10 +135,15 @@ RecursiveYontemi-master/
 
 ---
 
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+</details>
 
-## 👩‍💻 Geliştirici
+---
 
-Şilan PEHLİVAN
+<div align="center">
+
+**© 2023 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
