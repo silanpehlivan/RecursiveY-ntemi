@@ -24,6 +24,18 @@ Bir sayı dizisinin standart sapmasını döngülerle hesaplayan konsol uygulama
 
 C# · .NET Framework
 
+## Teknik yaklaşım
+
+Ortalama hesaplandıktan sonra değerlerin ortalamadan farklarının kareleri biriktirilir; varyans üzerinden standart sapma elde edilir.
+
+## Kodu incelemeye başlayın
+
+- [Program.cs](Program.cs)
+
+## Kapsam ve sınırlar
+
+Depo adındaki recursive ifadesine rağmen mevcut örnek döngü tabanlıdır; özyineleme uygulaması olarak sunulmaz.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
